@@ -17,7 +17,7 @@ const Forecast = ({ forecast }) => {
                                 <p>{format(new Date('1970-01-19T' + hour.datetime), "HH:mm")}</p>
                                 <div className='relative h-8 w-8 lg:h-12 lg:w-12'>
                                     <Image
-                                        src={`/1st Set - Color/${hour.icon}.png`}
+                                        src={`/icons/${hour.icon}.png`}
                                         alt='weather'
                                         fill
                                         className='object-contain'

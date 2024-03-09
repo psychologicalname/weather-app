@@ -20,7 +20,7 @@ const Hero = ({ weatherData }) => {
                         {finalDateString}
                     </p>
                     <div className='flex space-x-1 items-center font-abhayaLibre font-bold text-sm sm:text-2xl text-[#057BFF]'>
-                        <img src={`http://openweathermap.org/img/w/${weatherData?.weather[0].icon}.png`} alt='weather' className='h-8 w-8 lg:h-16 lg:w-16' />
+                        <img src={`https://openweathermap.org/img/w/${weatherData?.weather[0].icon}.png`} alt='weather' className='h-8 w-8 lg:h-16 lg:w-16' />
                         <p>{weatherData?.weather[0].main}</p>
                     </div>
                 </div>
